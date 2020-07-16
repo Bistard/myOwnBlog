@@ -13,7 +13,7 @@ body{
     font: normal 20px;
 }
 .topic-1{
-    width: 90%;
+    width: 90%;
     margin: auto;
     border: 2px black solid;
 }
@@ -36,7 +36,7 @@ body{
     line-height: 1.6em;
 }
 .topic-2{
-    width: 90%;
+    width: 90%;
     margin: auto;
     font-family: cursive;
     font-size: 16px;
@@ -65,7 +65,7 @@ body{
 }
 .form-1 input[type="text"], input[type="email"], textarea[type="message"]{
     display: block;
-    width: 100%;
+    width: 100%;
 }
 .form-1 input[type="button"]{
     background: wheat;
@@ -79,13 +79,13 @@ body{
 #main-block{
     margin: 0em;
     float: left;
-    width: 30%;
+    width: 30%;
     box-sizing: border-box;
 }
 #sidebar{
     margin: 0em;
     float: right;
-    width: 70%;
+    width: 70%;
     background: #333;
     color: white;
     font-family: cursive;
