@@ -1,22 +1,31 @@
+@font-face{
+    font-family: myFont;
+    src:url("../fonts/MadeWithB.ttf") format("truetype");
+}
+
 body{
     margin: 0px;
-    background-color: antiquewhite;
+    background-color: antiquewhite; /*SECOND CHOICE #1*/
+    background-color: #dfd7c6;
 }
 
 #main-title{
-    font-family: fantasy;
-    font-size: 4em;
+    font-family: myFont;
+    font-size: 6em;
     text-align: center;
-    text-transform: uppercase;
+
 }
+
 .nav-items{
     text-align: center;
     background-color: lightskyblue;
     padding: 2em;
 }
+
 .nav-items > div{
     margin-right: 20px;
 }
+
 .nav-link{
     display: inline;
     /*underline*/
@@ -25,9 +34,11 @@ body{
     /*transition*/
     transition: border-bottom 0.5s;
 }
+
 .nav-link img{
     max-width: 1.5em;
 }
+
 .nav-link a{
     font-family: fantasy;
     text-decoration: none;
@@ -36,7 +47,7 @@ body{
     /*transition*/
     transition: font-size 0.5;
 }
+
 .nav-link:hover{
     border-bottom: 3px solid white;
-    
 }
