@@ -6,29 +6,32 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: antiquewhite; /*SECOND CHOICE #1*/
+    background-color: #faebd7; /*SECOND CHOICE #1*/
 }
 
 .part-one{
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: antiquewhite;
+    background-color: #777796;
 }
 
 #main-title{
     font-family: titleFont;
+    color: white;
     font-size: 9em;
     text-align: center;
 }
 
 #sub-title-2{
     font-family: titleFont;
+    color: white;
     font-size: 3em;
     text-align: center;
 }
 
 #sub-title{
     font-family: titleFont;
+    color: white;
     font-size: 5em;
     text-align: center;
 }
