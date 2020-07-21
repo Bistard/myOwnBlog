@@ -7,12 +7,29 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: antiquewhite; /*SECOND CHOICE #1*/
-    background-color: #dfd7c6;
+}
+
+.part-one{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: antiquewhite;
 }
 
 #main-title{
     font-family: titleFont;
-    font-size: 6em;
+    font-size: 9em;
+    text-align: center;
+}
+
+#sub-title-2{
+    font-family: titleFont;
+    font-size: 3em;
+    text-align: center;
+}
+
+#sub-title{
+    font-family: titleFont;
+    font-size: 5em;
     text-align: center;
 }
 
@@ -21,7 +38,7 @@ body{
 .nav-items{
     text-align: center;
     background-color: lightskyblue;
-    padding: 2em;
+    padding: 1em;
 }
 
 .nav-items > div{
@@ -30,11 +47,9 @@ body{
 
 .nav-link{
     display: inline;
-    /*underline*/
-    border-radius: 3px;
+    border-radius: 4px;
     border-bottom: 3px solid transparent;
-    /*transition*/
-    transition: border-bottom 0.5s;
+    transition: border-bottom 0.5s; 
 }
 
 .nav-link img{
@@ -46,7 +61,6 @@ body{
     text-decoration: none;
     color: white;
     font-size: 1.5em;       
-    /*transition*/
     transition: font-size 0.5;
 }
 
@@ -60,6 +74,7 @@ body{
     margin: auto;
     width: 1000px;
     height: 630px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -82,6 +97,7 @@ body{
     width: 10px;
     height: 10px;
     border: 2px solid white;
+    border-radius: 15px;
     margin: 10px;
     cursor: pointer;
     transition: 0.5s;
@@ -104,7 +120,7 @@ input[name="r"]{
 
 .slide{
     width: 20%;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .slide img{
@@ -132,4 +148,7 @@ input[name="r"]{
     margin-left: -80%;
 }
 
+
+/* */
+/* */
 /* */
