@@ -1,9 +1,10 @@
 body{
     margin: 0px;
+    background-color: antiquewhite;
 }
 
 #main-title{
-    font-family: cursive;
+    font-family: fantasy;
     font-size: 4em;
     text-align: center;
     text-transform: uppercase;
@@ -11,7 +12,7 @@ body{
 .nav-items{
     text-align: center;
     background-color: lightskyblue;
-    padding: 2em;   
+    padding: 2em;
 }
 .nav-items > div{
     margin-right: 20px;
@@ -24,7 +25,11 @@ body{
     /*transition*/
     transition: border-bottom 0.5s;
 }
+.nav-link img{
+    max-width: 1.5em;
+}
 .nav-link a{
+    font-family: fantasy;
     text-decoration: none;
     color: white;
     font-size: 1.5em;       
@@ -33,5 +38,5 @@ body{
 }
 .nav-link:hover{
     border-bottom: 3px solid white;
-    font-size: 1.05em;
+    
 }
