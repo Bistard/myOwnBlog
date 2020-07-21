@@ -58,8 +58,8 @@ body{
 
 .slideshows{
     margin: auto;
-    width: 700px;
-    height: 400px;
+    width: 1000px;
+    height: 630px;
     overflow: hidden;
 }
 
@@ -73,7 +73,7 @@ body{
 .slide-nav{
     position: absolute;
     left: 50%;
-    padding: 370px;
+    padding: 600px;
     transform: translateX(-50%);
     display: flex;
 }
