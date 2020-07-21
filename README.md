@@ -1,2 +1,2 @@
 # myOwnBlog
-This is my own blog.
+This is my own blog about my photography.
