@@ -2,9 +2,10 @@
 This is my own blog about my photography.
 
 
-# top priority:
+# top priority
 1. BGM
-2. responsive picture gallery
+2. ✔ Image SlideShows 
+3. responsive picture gallery
 
-# minor priority:
+# minor priority
 1. imageSlider nav bar turns white when active
