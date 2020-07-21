@@ -11,3 +11,4 @@ This is my own blog about my photography.
 # minor priority
 1. imageSlider nav bar turns white when active
 2. the main title appears gradually
+3. The navBar will fold when scolling down
