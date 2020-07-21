@@ -9,3 +9,4 @@ This is my own blog about my photography.
 
 # minor priority
 1. imageSlider nav bar turns white when active
+2. the mian title appears gradually
