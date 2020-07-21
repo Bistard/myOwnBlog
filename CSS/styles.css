@@ -57,6 +57,7 @@ body{
 /* SLIDE SHOW */
 
 .slideshows{
+    margin: auto;
     width: 700px;
     height: 400px;
     overflow: hidden;
@@ -71,8 +72,8 @@ body{
 
 .slide-nav{
     position: absolute;
-    bottom: 10px;
     left: 50%;
+    padding: 370px;
     transform: translateX(-50%);
     display: flex;
 }
