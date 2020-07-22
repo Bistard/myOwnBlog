@@ -9,11 +9,6 @@ body{
     background-color: #faebd7;
 }
 
-.container{
-    width: 100%;
-    height: 100%;
-}
-
 .main-title{
     margin: 0;
     padding: 0;
@@ -45,6 +40,11 @@ body{
 }
 
 /* SLIDE SHOW */
+
+.slidesshow{
+    width: 100%;
+    overflow: hidden;
+}
 
 .slides{
     width: 500%;
