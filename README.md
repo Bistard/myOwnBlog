@@ -11,8 +11,8 @@ This is my own blog about my photography.
 # minor priority
 1. imageSlider nav bar turns white when active.
 2. the main title appears gradually.
-3. The navBar will fold when scolling down.
+3. The menu button has animation.
 4. load the thumbnail of the image first.
 
 # Ideas
-1. might put the main navBar to the left side and fold, only expand when you click a menu button.
+1. ✔ might put the main navBar to the left side and fold, only expand when you click a menu button.
