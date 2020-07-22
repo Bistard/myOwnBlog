@@ -10,8 +10,8 @@ This is my own blog about my photography.
 
 # minor priority
 1. imageSlider nav bar turns white when active.
-2. the main title appears gradually.
-3. The menu button has animation.
+2. ✔ main title -> animation.
+3. menu button -> animation.
 4. load the thumbnail of the image first.
 
 # Ideas
