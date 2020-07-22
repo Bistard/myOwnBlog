@@ -9,6 +9,35 @@ body{
     background-color: #faebd7;
 }
 
+/* NAVIGATION BAR */
+nav{
+    display: flex;
+}
+
+.leftside{
+    position: absolute;
+    left: 0%;
+    padding: 5vw;
+}
+
+.menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2vw;
+    border-bottom: 2px solid white;
+    transform: 1s;
+}
+
+.menu:hover{
+    border-bottom: 4px spolid white;
+}
+
+.rightside{
+    position: absolute;
+    right: 0%;
+}
+
 /* MAIN TITLE */
 
 .main-title{
@@ -81,35 +110,6 @@ body{
         margin-top: -10vh;
     }
 
-}
-
-/* NAVIGATION BAR */
-nav{
-    display: flex;
-}
-
-.leftside{
-    position: absolute;
-    left: 0%;
-    padding: 5vw;
-}
-
-.menu{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    text-transform: uppercase;
-    font-size: 2vw;
-    border-bottom: 2px solid white;
-    transform: 1s;
-}
-
-.menu:hover{
-    border-bottom: 4px spolid white;
-}
-
-.rightside{
-    position: absolute;
-    right: 0%;
 }
 
 /* SLIDE SHOW */
