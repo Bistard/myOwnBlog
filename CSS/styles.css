@@ -44,7 +44,7 @@ nav{
     font-family: titleFont;
     color: white;
     position: absolute;
-    width: 43%;
+    width: 55%;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
@@ -53,7 +53,7 @@ nav{
 
 .main-title h1{
     margin: 0px;
-    font-size: 5vw;
+    font-size: 7vw;
     text-align: center;
     letter-spacing: 1vw;
     background-color: transparent;
@@ -65,29 +65,30 @@ nav{
     margin: 0px;
     font-size: 3vw;
     text-align: center;
+    letter-spacing: 0.5vw;
     animation: title-2 3s 1;
 }
 
 @keyframes bg{
     0%{
-        width: 55%;
+        width: 65%;
     }
     35%{
-        width: 55%;
+        width: 65%;
     }
     50%{
-        width: 43%;
+        width: 55%;
     }
 }
 
 @keyframes title-1{
     0%{
         color: transparent;
-        letter-spacing: 2vw;
+        letter-spacing: 1.5vw;
         background: black;
     }
     35%{
-        letter-spacing: 2vw;
+        letter-spacing: 1.5vw;
         background: black;
     }
     50%{
