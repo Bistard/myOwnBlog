@@ -13,6 +13,7 @@ This is my own blog about my photography.
 2. ✔ main title -> animation.
 3. menu button -> animation.
 4. load the thumbnail of the image first.
+5. ✔ ImageSlider play automatically.
 
 # Ideas
 1. ✔ might put the main navBar to the left side and fold, only expand when you click a menu button.
