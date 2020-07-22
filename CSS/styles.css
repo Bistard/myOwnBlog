@@ -6,100 +6,63 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #faebd7; /*SECOND CHOICE #1*/
+    background-color: #faebd7;
 }
 
-.part-one{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #777796;
+.container{
+    width: 100%;
+    height: 100%;
 }
 
-#main-title{
+.main-title{
+    margin: 0;
+    padding: 0;
     font-family: titleFont;
     color: white;
+    letter-spacing: 1vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.main-title h1{
+    margin: 0px;
     font-size: 9em;
     text-align: center;
 }
 
-#sub-title-2{
-    font-family: titleFont;
-    color: white;
+.main-title h2{
+    margin: 0px;
     font-size: 3em;
     text-align: center;
 }
 
-#sub-title{
-    font-family: titleFont;
-    color: white;
+.main-title h3{
+    margin: 0px;
     font-size: 5em;
     text-align: center;
 }
 
-/* NAV BAR */
-
-.nav-items{
-    text-align: center;
-    background-color: lightskyblue;
-    padding: 1em;
-}
-
-.nav-items > div{
-    margin-right: 20px;
-}
-
-.nav-link{
-    display: inline;
-    border-radius: 4px;
-    border-bottom: 3px solid transparent;
-    transition: border-bottom 0.5s; 
-}
-
-.nav-link img{
-    max-width: 1.5em;
-}
-
-.nav-link a{
-    font-family: fantasy;
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;       
-    transition: font-size 0.5;
-}
-
-.nav-link:hover{
-    border-bottom: 3px solid white;
-}
-
 /* SLIDE SHOW */
 
-.slideshows{
-    margin: auto;
-    width: 1000px;
-    height: 630px;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.slides{
+    width: 500%;
+    display: flex;
 }
 
 .slide-nav{
     position: absolute;
     left: 50%;
-    padding: 600px;
+    top: 95vh;
     transform: translateX(-50%);
     display: flex;
 }
 
 .slide-bar{
-    width: 10px;
+    width: 4vw;
     height: 10px;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 15px;
     margin: 10px;
     cursor: pointer;
@@ -110,17 +73,6 @@ body{
     background-color: white;
 }
 
-input[name="r"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-.slides{
-    width: 500%;
-    height: 100%;
-    display: flex;
-}
-
 .slide{
     width: 20%;
     transition: 1s;
@@ -128,7 +80,13 @@ input[name="r"]{
 
 .slide img{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
 }
 
 #r1:checked ~ .s1{
