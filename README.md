@@ -16,6 +16,7 @@ This is my own blog about my photography.
 - menu button -> dropdown.
 - ✔ image-slideshow-navbar lined in a wave-shape.
 - click the image-slideshow-navbar will show the placeName instead of the picture.
+- ✔ box-shadow for the image-slideshow-navbar.
 
 # bug
 -
