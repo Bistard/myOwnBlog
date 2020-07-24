@@ -3,22 +3,24 @@ This is my own blog about my photography.
 
 
 # top priority
-1. BGM.
-2. ✔ imageSlider.
-3. ✔ Reduce image loading time for image-slideshow (resize the img from the server instead of in user's browser)
-4. responsive picture gallery in the index.html.
-5. Sidebar menu (tutorial: https://www.youtube.com/watch?v=V0O4pY2xX10)
+- BGM.
+- ✔ imageSlider.
+- ✔ Reduce image loading time for image-slideshow (resize the img from the server instead of in user's browser)
+- ✔ Image navbar.
+- responsive picture gallery in the index.html.
+- Sidebar menu (tutorial: https://www.youtube.com/watch?v=V0O4pY2xX10).
 
 # minor priority
-1. imageSlider-nav-bar turns white when active.
-2. ✔ main title -> animation.
-3. menu button -> hover animation.
-4. menu button -> dropdown.
-5. ✔ ImageSlider play automatically.
+- ✔ main title -> animation.
+- menu button -> hover animation.
+- menu button -> dropdown.
+- ✔ image-slideshow-navbar lined in a wave-shape.
+- click the image-slideshow-navbar will show the placeName instead of the picture.
+- ✔ box-shadow for the image-slideshow-navbar.
 
 # bug
-1.
+-
 
 # Ideas
-1. ✔ might put the main navBar to the left side and fold, only expand when you click a menu button.
-2. load the thumbnail of the image first.
+- ✔ might put the main navBar to the left side and fold, only expand when you click a menu button.
+-load the thumbnail of the image first.
