@@ -146,7 +146,7 @@ nav{
 }
 
 .slide-nav-container > label:nth-child(2n){
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .nav-bar-detail{
@@ -195,7 +195,6 @@ nav{
     height: 125px;
 }
 
-
 #r2:checked ~ .slide-nav-container > .text-china{
     background-image: none;
     border: none;
@@ -214,6 +213,23 @@ nav{
 }
 
 #r3:checked ~ .slide-nav-container > .text-japan{
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+.slide-nav-indonesia{
+    background-image: url(../images/imageSlideshows/slide-nav-bar-img/indonesia-icon.jpg);
+}
+
+.slide-nav-indonesia:hover{
+    width: 125px;
+    height: 125px;
+}
+
+#r4:checked ~ .slide-nav-container > .text-indonesia{
     background-image: none;
     border: none;
     box-shadow: none;
