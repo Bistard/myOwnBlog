@@ -25,8 +25,8 @@ nav{
     color: white;
     text-transform: uppercase;
     font-size: 2vw;
-    border-bottom: 2px solid white;
-    transform: 1s;
+    border-bottom: 4px solid transparent;
+    transition: 0.5s;
 }
 
 .menu:hover{
@@ -109,12 +109,11 @@ nav{
     }
 }
 
-
-
 /* SLIDE SHOW */
 
 .slides-container{
     width: 100%;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -154,13 +153,20 @@ nav{
     width: 100px;
     height: 100px;
     border: 1px white solid;
-    border-radius: 50%;    
+    border-radius: 50%;
     background-size: cover;
     cursor: pointer;
-    transition: 0.5s;
+
+    font-family: titleFont;
+    font-size: 0;
+    text-align: center;
+    color: white;
+
+    transition-property: height, width, font-size;
+    transition-duration: 1s, 1s, 0.3s;
+    
     margin-right: 1.5vw;
     box-shadow: 10px 10px 20px 0px black;
-    font-size: 0;
 }
 
 .slide-nav-canada{
@@ -172,6 +178,14 @@ nav{
     height: 125px;
 }
 
+#r1:checked ~ .slide-nav-container > .text-canada{
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
 .slide-nav-china{
     background-image: url(../images/imageSlideshows/slide-nav-bar-img/china-icon.jpg);
 }
@@ -179,6 +193,15 @@ nav{
 .slide-nav-china:hover{
     width: 125px;
     height: 125px;
+}
+
+
+#r2:checked ~ .slide-nav-container > .text-china{
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    font-size: 50px;
+    margin-right: 50px;
 }
 
 .slide-nav-japan{
@@ -190,13 +213,17 @@ nav{
     height: 125px;
 }
 
+#r3:checked ~ .slide-nav-container > .text-japan{
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
 @keyframes fade-in {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 input[name="r"]{
@@ -224,9 +251,10 @@ input[name="r"]{
     margin-left: -80%;
 }
 
-#r1:checked ~ .slide-nav-container > .text-canada{
-    transition: fade-out;
-}
+
+
+
+
 
 
 
