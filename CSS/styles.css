@@ -117,24 +117,75 @@ nav{
 
 .slide-nav-container{
     position: absolute;
+    width: 20%;
     left: 50%;
-    top: 95vh;
-    transform: translateX(-50%);
+    top: 93vh;
+    transform: translate(-50%, -50%);
     display: flex;
+    justify-content: space-around;
+    animation: fade-in 3s;
+    
 }
 
-.slide-bar{
-    width: 4vw;
-    height: 10px;
-    border: 1px solid white;
-    border-radius: 15px;
-    margin: 10px;
+.slide-nav-canada{
+    width: 100px;
+    height: 100px;
+    border: 1px white solid;
+    border-radius: 50%;
+    background-image: url(../images/imageSlideshows/slide-nav-bar-img/canada-icon.jpg);
+    background-size: cover;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.slide-bar:hover{
-    background-color: white;
+.slide-nav-canada:hover{
+    width: 125px;
+    height: 125px;
+}
+
+.slide-nav-china{
+    width: 100px;
+    height: 100px;
+    border: 1px white solid;
+    border-radius: 50%;
+    background-image: url(../images/imageSlideshows/slide-nav-bar-img/china-icon.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.slide-nav-china:hover{
+    width: 125px;
+    height: 125px;
+}
+
+.slide-nav-japan{
+    width: 100px;
+    height: 100px;
+    border: 1px white solid;
+    border-radius: 50%;
+    background-image: url(../images/imageSlideshows/slide-nav-bar-img/japan-icon.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.slide-nav-japan:hover{
+    width: 125px;
+    height: 125px;
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+        width: 15%;
+        height: auto;
+    }
+    100%{
+        opacity: 1;
+        width: 20%;
+        height: auto;
+    }
 }
 
 input[name="r"]{
@@ -144,6 +195,9 @@ input[name="r"]{
 
 #r1:checked ~ .s1{
     margin-left: 0;
+}
+#r1:checked ~ .text-canada{
+    margin: 5px solid white;
 }
 
 #r2:checked ~ .s1{
@@ -161,6 +215,7 @@ input[name="r"]{
 #r5:checked ~ .s1{
     margin-left: -80%;
 }
+
 
 /* */
 /* */
