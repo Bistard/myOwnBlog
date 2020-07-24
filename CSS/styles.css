@@ -48,6 +48,8 @@ nav{
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
+    box-shadow: 10px 10px 20px 0px black;
+    animation: title-1-2 3s 1;
 }
 
 .main-title h1{
@@ -56,7 +58,7 @@ nav{
     text-align: center;
     letter-spacing: 1vw;
     background-color: transparent;
-    position: relative;
+
     animation: title-1 3s 1;
 }
 
@@ -66,6 +68,15 @@ nav{
     text-align: center;
     letter-spacing: 0.5vw;
     animation: title-2 3s 1;
+}
+
+@keyframes title-1-2{
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 10px 10px 20px 0px black;
+    }
 }
 
 @keyframes title-1{
@@ -92,6 +103,8 @@ nav{
     }
 }
 
+
+
 /* SLIDE SHOW */
 
 .slides-container{
@@ -117,25 +130,35 @@ nav{
 
 .slide-nav-container{
     position: absolute;
-    width: 20%;
+    width: 100%;
     left: 50%;
     top: 93vh;
     transform: translate(-50%, -50%);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     animation: fade-in 3s;
     
 }
 
-.slide-nav-canada{
+.slide-nav-container > label:nth-child(2n){
+    margin-top: 20px;
+}
+
+.nav-bar-detail{
     width: 100px;
     height: 100px;
     border: 1px white solid;
-    border-radius: 50%;
-    background-image: url(../images/imageSlideshows/slide-nav-bar-img/canada-icon.jpg);
+    border-radius: 50%;    
     background-size: cover;
     cursor: pointer;
     transition: 0.5s;
+    margin-right: 1.5vw;
+    box-shadow: 10px 10px 20px 0px black;
+    font-size: 0;
+}
+
+.slide-nav-canada{
+    background-image: url(../images/imageSlideshows/slide-nav-bar-img/canada-icon.jpg);
 }
 
 .slide-nav-canada:hover{
@@ -144,14 +167,7 @@ nav{
 }
 
 .slide-nav-china{
-    width: 100px;
-    height: 100px;
-    border: 1px white solid;
-    border-radius: 50%;
     background-image: url(../images/imageSlideshows/slide-nav-bar-img/china-icon.jpg);
-    background-size: cover;
-    cursor: pointer;
-    transition: 0.5s;
 }
 
 .slide-nav-china:hover{
@@ -160,14 +176,7 @@ nav{
 }
 
 .slide-nav-japan{
-    width: 100px;
-    height: 100px;
-    border: 1px white solid;
-    border-radius: 50%;
     background-image: url(../images/imageSlideshows/slide-nav-bar-img/japan-icon.jpg);
-    background-size: cover;
-    cursor: pointer;
-    transition: 0.5s;
 }
 
 .slide-nav-japan:hover{
@@ -178,13 +187,9 @@ nav{
 @keyframes fade-in {
     0%{
         opacity: 0;
-        width: 15%;
-        height: auto;
     }
     100%{
         opacity: 1;
-        width: 20%;
-        height: auto;
     }
 }
 
@@ -195,9 +200,6 @@ input[name="r"]{
 
 #r1:checked ~ .s1{
     margin-left: 0;
-}
-#r1:checked ~ .text-canada{
-    margin: 5px solid white;
 }
 
 #r2:checked ~ .s1{
@@ -215,6 +217,11 @@ input[name="r"]{
 #r5:checked ~ .s1{
     margin-left: -80%;
 }
+
+#r1:checked ~ .slide-nav-container > .text-canada{
+    transition: fade-out;
+}
+
 
 
 /* */
