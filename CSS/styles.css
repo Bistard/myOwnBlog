@@ -30,7 +30,7 @@ nav{
 }
 
 .menu:hover{
-    border-bottom: 4px spolid white;
+    border-bottom: 4px solid white;
 }
 
 .rightside{
@@ -48,7 +48,6 @@ nav{
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    animation: bg 3s 1;
 }
 
 .main-title h1{
@@ -69,35 +68,16 @@ nav{
     animation: title-2 3s 1;
 }
 
-@keyframes bg{
-    0%{
-        width: 65%;
-    }
-    35%{
-        width: 65%;
-    }
-    50%{
-        width: 55%;
-    }
-}
-
 @keyframes title-1{
     0%{
         color: transparent;
-        letter-spacing: 1.5vw;
-        background: black;
+        letter-spacing: 2vw;
     }
     35%{
-        letter-spacing: 1.5vw;
-        background: black;
+        letter-spacing: 2vw;
     }
     50%{
         letter-spacing: 1vw;
-        background: black;
-    }
-    75%{
-        letter-spacing: 1vw;
-        background: black;
     }
 }
 
@@ -106,16 +86,15 @@ nav{
         color: transparent;
         margin-top: -10vh;
     }
-    35%{
+    50%{
         color: transparent;
         margin-top: -10vh;
     }
-
 }
 
 /* SLIDE SHOW */
 
-.slidesshow{
+.slides-container{
     width: 100%;
     overflow: hidden;
 }
@@ -123,46 +102,20 @@ nav{
 .slides{
     width: 500%;
     display: flex;
-    animation: slide 30s infinite;
 }
 
-@keyframes slide{
-    0%{
-        margin-left: 0%;
-    }
-    15%{
-        margin-left: 0%;
-    }
-    20%{
-        margin-left: -100%;
-    }
-    35%{
-        margin-left: -100%;
-    }
-    40%{
-        margin-left: -200%;
-    }
-    55%{
-        margin-left: -200%;
-    }
-    60%{
-        margin-left: -300%;
-    }
-    75%{
-        margin-left: -300%;
-    }
-    80%{
-        margin-left: -400%;
-    }
-    95%{
-        margin-left: -400%;
-    }
-    100%{
-        margin-left: 0%;
-    }
+.slide{
+    width: 20%;
+    transition: 1s;
 }
 
-.slide-nav{
+.slide img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.slide-nav-container{
     position: absolute;
     left: 50%;
     top: 95vh;
@@ -182,17 +135,6 @@ nav{
 
 .slide-bar:hover{
     background-color: white;
-}
-
-.slide{
-    width: 20%;
-    transition: 1s;
-}
-
-.slide img{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
 }
 
 input[name="r"]{
