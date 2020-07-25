@@ -3,9 +3,10 @@ This is my own webside about my photography 😀(*^_^*)😀.
 
 
 # top priority
-- ✔ imageSlider.
+- ✔ Image-slideshow.
 - ✔ Reduce image loading time for image-slideshow (resize the img from the server instead of in user's browser)
 - ✔ Image navbar.
+- ✔ Image-slideshow description and animation.
 - Fix the different result in different user's device (mostly are resizing problem).
 - responsive picture gallery in the index.html.
 - Sidebar menu (tutorial: https://www.youtube.com/watch?v=V0O4pY2xX10).
