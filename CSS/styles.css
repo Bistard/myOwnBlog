@@ -310,6 +310,7 @@ input[name="r"]{
 }
 
 .intro-name{
+    text-align: right;
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
@@ -322,6 +323,7 @@ input[name="r"]{
 }
 
 .intro-time{
+    text-align: right;
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
@@ -334,6 +336,7 @@ input[name="r"]{
 }
 
 .intro-place{
+    text-align: right;
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
