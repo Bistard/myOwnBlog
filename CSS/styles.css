@@ -50,6 +50,7 @@ nav{
     top: 50%;
     box-shadow: 10px 10px 20px 0px black;
     animation: title-1-2 3s 1;
+    backdrop-filter: blur(4px);
 }
 
 .main-title h1{
@@ -58,7 +59,6 @@ nav{
     text-align: center;
     letter-spacing: 1vw;
     background-color: transparent;
-
     animation: title-1 3s 1;
 }
 
