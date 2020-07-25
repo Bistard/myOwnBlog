@@ -305,7 +305,6 @@ input[name="r"]{
 .intro-container > *{
     position: absolute;
     left: 80%;
-    
     top: 85%;
     transform: translate(-50%, -50%);
 }
@@ -322,7 +321,7 @@ input[name="r"]{
     text-shadow: 1px 1px 5px black;
 }
 
-.intro-country{
+.intro-time{
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
@@ -334,7 +333,7 @@ input[name="r"]{
     text-shadow: 1px 1px 5px black;
 }
 
-.intro-city{
+.intro-place{
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
