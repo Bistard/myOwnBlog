@@ -22,7 +22,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ box-shadow for the image-slideshow-navbar.
 - Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
 
-# bug
+# bugs
 -
 
 # Ideas
