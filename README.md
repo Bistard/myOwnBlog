@@ -9,6 +9,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - Fix the different result in different user's device (mostly are resizing problem).
 - responsive picture gallery in the index.html.
 - Sidebar menu (tutorial: https://www.youtube.com/watch?v=V0O4pY2xX10).
+- Background with some random figures using JS.
 
 # minor priority
 - ✔ main title -> animation.
