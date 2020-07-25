@@ -19,6 +19,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ image-slideshow-navbar lined in a wave-shape.
 - ✔ click the image-slideshow-navbar will show the placeName instead of the picture.
 - ✔ box-shadow for the image-slideshow-navbar.
+- Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
 
 # bug
 -
