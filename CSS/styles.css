@@ -21,12 +21,13 @@ nav{
 }
 
 .timeline{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     text-transform: uppercase;
+    letter-spacing: 10px;
     font-size: 30px;
     border-bottom: 4px solid transparent;
     transition: 0.5s;
+    text-shadow: 2px 2px 0px black;
 }
 
 .timeline:hover{
@@ -38,7 +39,7 @@ nav{
     right: 0%;
 }
 
-/* MAIN TITLE */
+/* MAIN-TITLE */
 
 .main-title{
     font-family: titleFont;
@@ -52,7 +53,7 @@ nav{
     top: 50%;
     box-shadow: 5px 5px 10px 0px black;
     animation: title-1-2 3s 1;
-    transition: 1s;
+    transition: 0.5s;
     backdrop-filter: blur(4px) contrast(0.8);
     border-radius: 100px 15px;
 }
@@ -121,7 +122,8 @@ nav{
     }
 }
 
-/* SLIDE SHOW */
+/* MAIN-TITLE (END) */
+/* IMAGE-SLIDESHOW */
 
 .slides-container{
     width: 100%;
@@ -144,14 +146,14 @@ nav{
     height: 100vh;
     object-fit: cover;
 }
-
-/* SILDE-NAV-BAR */
+/* IMAGE-SLIDESHOW (END) */
+/* SLIDE-NAV-BAR */
 
 .slide-nav-container{
     position: absolute;
     width: 100%;
     left: 50%;
-    top: 93vh;
+    top: 85%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -297,13 +299,76 @@ input[name="r"]{
     margin-left: -80%;
 }
 
+/* SLIDE-NAV-BAR (END) */
+/* SLIDE-INTRO */
+
+.intro-container > *{
+    position: absolute;
+    left: 80%;
+    
+    top: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.intro-name{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.intro-country{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.intro-city{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 8px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.transparent{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#r1:checked ~ .intro-container > .intro-canada{
+    opacity: 1;
+}
+
+#r2:checked ~ .intro-container > .intro-china{
+    opacity: 1;
+}
+
+#r3:checked ~ .intro-container > .intro-japan{
+    opacity: 1;
+}
+
+#r4:checked ~ .intro-container > .intro-indonesia{
+    opacity: 1;
+}
 
 
 
-
-
-
-
-/* */
+/* SLIDE-INTRO (END) */
 /* */
 /* */
