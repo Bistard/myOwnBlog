@@ -367,7 +367,9 @@ input[name="r"]{
     opacity: 1;
 }
 
-
+.intro-china{
+    animation: fade-in 1s;
+}
 
 /* SLIDE-INTRO (END) */
 /* */
