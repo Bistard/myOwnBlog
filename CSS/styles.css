@@ -20,16 +20,16 @@ nav{
     padding: 5vw;
 }
 
-.menu{
+.timeline{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 30px;
     border-bottom: 4px solid transparent;
     transition: 0.5s;
 }
 
-.menu:hover{
+.timeline:hover{
     border-bottom: 4px solid white;
 }
 
@@ -44,42 +44,54 @@ nav{
     font-family: titleFont;
     color: white;
     position: absolute;
-    width: 50%;
+    width: 880px;
+    height: auto;
+    min-height: 200px;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
     box-shadow: 5px 5px 10px 0px black;
     animation: title-1-2 3s 1;
+    transition: 1s;
     backdrop-filter: blur(4px) contrast(0.8);
+    border-radius: 100px 15px;
+}
+
+.main-title:hover{
+    width: 920px;
+}
+
+.main-title:hover ~ .main-title > h1 {
+    font-size: 60px;
 }
 
 .main-title h1{
     margin: 0px;
-    font-size: 7vw;
+    font-size: 150px;
     text-align: center;
-    letter-spacing: 1vw;
+    letter-spacing: 10px;
     background-color: transparent;
     animation: title-1 3s 1;
 }
 
 .main-title h2{
     margin: 0px;
-    font-size: 3vw;
+    font-size: 50px;
     text-align: center;
-    letter-spacing: 0.5vw;
+    letter-spacing: 5px;
     animation: title-2 3s 1;
 }
 
 @keyframes title-1-2{
     0%{
         box-shadow: none;
-        width: 55%;
+        width: 980px;
     }
     35%{
-        width: 55%;
+        width: 980px;
     }
     50%{
-        width: 50%;
+        width: 880px;
         box-shadow: 5px 5px 10px 0px black;
         
     }
@@ -88,13 +100,13 @@ nav{
 @keyframes title-1{
     0%{
         color: transparent;
-        letter-spacing: 2vw;
+        letter-spacing: 20px;
     }
     35%{
-        letter-spacing: 2vw;
+        letter-spacing: 20px;
     }
     50%{
-        letter-spacing: 1vw;
+        letter-spacing: 10px;
     }
 }
 
@@ -132,6 +144,8 @@ nav{
     height: 100vh;
     object-fit: cover;
 }
+
+/* SILDE-NAV-BAR */
 
 .slide-nav-container{
     position: absolute;
@@ -186,6 +200,10 @@ nav{
     margin-right: 50px;
 }
 
+#r1:checked ~ .slide-nav-container > .text-canada:hover{
+    font-size: 60px;
+}
+
 .slide-nav-china{
     background-image: url(../images/imageSlideshows/slide-nav-bar-img/china-icon.jpg);
 }
@@ -201,6 +219,10 @@ nav{
     box-shadow: none;
     font-size: 50px;
     margin-right: 50px;
+}
+
+#r2:checked ~ .slide-nav-container > .text-china:hover{
+    font-size: 60px;
 }
 
 .slide-nav-japan{
@@ -220,6 +242,10 @@ nav{
     margin-right: 50px;
 }
 
+#r3:checked ~ .slide-nav-container > .text-japan:hover{
+    font-size: 60px;
+}
+
 .slide-nav-indonesia{
     background-image: url(../images/imageSlideshows/slide-nav-bar-img/indonesia-icon.jpg);
 }
@@ -235,6 +261,10 @@ nav{
     box-shadow: none;
     font-size: 50px;
     margin-right: 50px;
+}
+
+#r4:checked ~ .slide-nav-container > .text-indonesia:hover{
+    font-size: 60px;
 }
 
 @keyframes fade-in {
