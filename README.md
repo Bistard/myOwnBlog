@@ -10,6 +10,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - responsive picture gallery in the index.html.
 - Sidebar menu (tutorial: https://www.youtube.com/watch?v=V0O4pY2xX10).
 - Background with some random figures using JS.
+- Add About Me page (section).
 
 # minor priority
 - ✔ main title -> animation.
