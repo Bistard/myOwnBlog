@@ -375,5 +375,18 @@ input[name="r"]{
 
 
 /* SLIDE-INTRO (END) */
-/* */
+/* ABOUT ME */
+
+.about-me-container{
+    position: absolute;
+    margin-top: 50px;
+
+    background-color: white;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 /* */
