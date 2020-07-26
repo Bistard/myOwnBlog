@@ -6,8 +6,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Image-slideshow.
 - ✔ Reduce image loading time for image-slideshow (resize the img from the server instead of in user's browser)
 - ✔ Image navbar.
-- ✔ Image-slideshow description and animation.
-- Fix the different result in different user's device (mostly are resizing problem).
+- ✔ Image-slideshow description and animation
 - responsive picture gallery in the index.html.
 - Sidebar menu (tutorial: https://www.youtube.com/watch?v=V0O4pY2xX10).
 - Background with some random figures using JS.
@@ -22,8 +21,8 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ box-shadow for the image-slideshow-navbar.
 - Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
 
-# bug
--
+# bugs
+- Auto fit the mobile phone users.
 
 # Ideas
 - ✔ might put the main navBar to the left side and fold, only expand when you click a menu button.
