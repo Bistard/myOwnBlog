@@ -9,17 +9,15 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Image-slideshow description and animation
 - responsive picture gallery in the index.html.
 - Sidebar menu (tutorial: https://www.youtube.com/watch?v=V0O4pY2xX10).
-- Background with some random figures using JS.
-- Add About Me page (section).
+- ✔ Add About Me page (section).
 
 # minor priority
 - ✔ main title -> animation.
-- menu button -> hover animation.
-- menu button -> dropdown.
 - ✔ image-slideshow-navbar lined in a wave-shape.
 - ✔ click the image-slideshow-navbar will show the placeName instead of the picture.
 - ✔ box-shadow for the image-slideshow-navbar.
 - Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
+- Like button next to the about-me section.
 
 # bugs
 - Auto fit the mobile phone users.
@@ -29,3 +27,4 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - Chinese version.
 - load the thumbnail of the image first.
 - Some music maybe?
+- Background with some random figures using JS?
