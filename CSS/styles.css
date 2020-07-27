@@ -414,6 +414,10 @@ input[name="r"]{
     letter-spacing: 10px;
 }
 
+.content-title span{
+    color: #B69870; 
+}
+
 .content-sub-title{
     text-align: left;
     font-size: 30px;
@@ -440,6 +444,7 @@ input[name="r"]{
 .content-description p strong{
     font-size: 30px;
     text-transform: uppercase;
+    color: #B69870;
 }
 
 .selfie-container{
