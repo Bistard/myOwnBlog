@@ -26,5 +26,6 @@ This is my own webside about my photography 😀(*^_^*)😀.
 
 # Ideas
 - ✔ might put the main navBar to the left side and fold, only expand when you click a menu button.
+- Chinese version.
 - load the thumbnail of the image first.
 - Some music maybe?
