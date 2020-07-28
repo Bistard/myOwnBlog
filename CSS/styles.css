@@ -3,6 +3,16 @@
     src:url("../fonts/MadeWithB.ttf") format("truetype");
 }
 
+@font-face{
+    font-family: archistico-bold;
+    src:url("../fonts/Archistico_Bold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: archistico-simple;
+    src:url("../fonts/Archistico_Simple.ttf") format("truetype");
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -16,27 +26,38 @@ nav{
 
 .leftside{
     position: absolute;
+    display: flex;
     left: 0%;
-    padding: 5vw;
+    padding: 2vw;
 }
 
-.timeline{
+.rightside{
+    position: absolute;
+    display: flex;
+    right: 0%;
+    padding: 2vw;
+}
+
+.nav-style{
+    margin-right: 40px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-size: 30px;
+    font-size: 20px;
     border-bottom: 4px solid transparent;
     transition: 0.5s;
     text-shadow: 2px 2px 0px black;
 }
 
-.timeline:hover{
+.timeline:hover,
+.aboutme:hover,
+.gallery:hover,
+.blog:hover,
+.github:hover,
+.ins:hover,
+.qq:hover
+{
     border-bottom: 4px solid white;
-}
-
-.rightside{
-    position: absolute;
-    right: 0%;
 }
 
 /* MAIN-TITLE */
@@ -189,75 +210,32 @@ nav{
     background-image: url(../images/imageSlideshows/slide-nav-bar-img/canada-icon.jpg);
 }
 
-.slide-nav-canada:hover{
-    width: 125px;
-    height: 125px;
-}
-
-#r1:checked ~ .slide-nav-container > .text-canada{
-    background-image: none;
-    border: none;
-    box-shadow: none;
-    font-size: 50px;
-    margin-right: 50px;
-}
-
-#r1:checked ~ .slide-nav-container > .text-canada:hover{
-    font-size: 60px;
-}
-
 .slide-nav-china{
     background-image: url(../images/imageSlideshows/slide-nav-bar-img/china-icon.jpg);
-}
-
-.slide-nav-china:hover{
-    width: 125px;
-    height: 125px;
-}
-
-#r2:checked ~ .slide-nav-container > .text-china{
-    background-image: none;
-    border: none;
-    box-shadow: none;
-    font-size: 50px;
-    margin-right: 50px;
-}
-
-#r2:checked ~ .slide-nav-container > .text-china:hover{
-    font-size: 60px;
 }
 
 .slide-nav-japan{
     background-image: url(../images/imageSlideshows/slide-nav-bar-img/japan-icon.jpg);
 }
 
-.slide-nav-japan:hover{
-    width: 125px;
-    height: 125px;
-}
-
-#r3:checked ~ .slide-nav-container > .text-japan{
-    background-image: none;
-    border: none;
-    box-shadow: none;
-    font-size: 50px;
-    margin-right: 50px;
-}
-
-#r3:checked ~ .slide-nav-container > .text-japan:hover{
-    font-size: 60px;
-}
-
 .slide-nav-indonesia{
     background-image: url(../images/imageSlideshows/slide-nav-bar-img/indonesia-icon.jpg);
 }
 
-.slide-nav-indonesia:hover{
+.slide-nav-canada:hover,
+.slide-nav-china:hover,
+.slide-nav-japan:hover,
+.slide-nav-indonesia:hover
+{
     width: 125px;
     height: 125px;
 }
 
-#r4:checked ~ .slide-nav-container > .text-indonesia{
+#r1:checked ~ .slide-nav-container > .text-canada,
+#r2:checked ~ .slide-nav-container > .text-china,
+#r3:checked ~ .slide-nav-container > .text-japan,
+#r4:checked ~ .slide-nav-container > .text-indonesia
+{
     background-image: none;
     border: none;
     box-shadow: none;
@@ -265,6 +243,9 @@ nav{
     margin-right: 50px;
 }
 
+#r1:checked ~ .slide-nav-container > .text-canada:hover,
+#r2:checked ~ .slide-nav-container > .text-china:hover,
+#r3:checked ~ .slide-nav-container > .text-japan:hover,
 #r4:checked ~ .slide-nav-container > .text-indonesia:hover{
     font-size: 60px;
 }
@@ -353,18 +334,9 @@ input[name="r"]{
     transition: opacity 1s;
 }
 
-#r1:checked ~ .intro-container > .intro-canada{
-    opacity: 1;
-}
-
-#r2:checked ~ .intro-container > .intro-china{
-    opacity: 1;
-}
-
-#r3:checked ~ .intro-container > .intro-japan{
-    opacity: 1;
-}
-
+#r1:checked ~ .intro-container > .intro-canada,
+#r2:checked ~ .intro-container > .intro-china,
+#r3:checked ~ .intro-container > .intro-japan,
 #r4:checked ~ .intro-container > .intro-indonesia{
     opacity: 1;
 }
@@ -396,6 +368,7 @@ input[name="r"]{
     position: relative;
     margin: 80px;
     letter-spacing: 3px;
+    display: flexbox;
 }
 
 .content-container .break-line{
@@ -463,4 +436,6 @@ input[name="r"]{
     object-fit: cover;
 }
 
+/* ABOUT-ME (END) */
+/* */
 /* */
