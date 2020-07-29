@@ -19,6 +19,11 @@ body{
     /* background-color: #faebd7; */
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* NAVIGATION BAR */
 nav{
     display: flex;
