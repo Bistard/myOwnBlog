@@ -7,9 +7,8 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Reduce image loading time for image-slideshow (resize the img from the server instead of in user's browser)
 - ✔ Image navbar.
 - ✔ Image-slideshow description and animation
-- responsive picture gallery in the index.html.
-- Sidebar menu (tutorial: https://www.youtube.com/watch?v=V0O4pY2xX10).
-- ✔ Add About Me page (section).
+- ✔ Picture Seires (Galleries).
+- responsive picture gallery.
 
 # minor priority
 - ✔ main title -> animation.
@@ -17,7 +16,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ click the image-slideshow-navbar will show the placeName instead of the picture.
 - ✔ box-shadow for the image-slideshow-navbar.
 - Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
-- Like button next to the about-me section.
+- Like button next to every picture seires.
 
 # bugs
 - Auto fit the mobile phone users.
