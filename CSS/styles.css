@@ -400,16 +400,9 @@ input[name="r"]{
 }
 
 .swiper-wrapper {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-column-gap: 50px;
-    height: 400px;
+    height: 450px;
     width: 10px;
     
-}
-
-.swiper-slide:nth-child(5){
-    background-color: black;
 }
 
 .swiper-slide {
@@ -419,6 +412,7 @@ input[name="r"]{
     height: 390px;
     width: auto !important;
     object-fit: cover;
+    cursor: pointer;
 
     box-shadow: 5px 5px 20px 0px black;
 
@@ -435,6 +429,12 @@ input[name="r"]{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+
+    transition: 0.5s;
+}
+
+.swiper-slide:hover{
+    height: 400px;
 }
 
 /* SERIES (END) */
