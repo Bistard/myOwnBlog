@@ -20,6 +20,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 
 # bugs
 - Auto fit the mobile phone users.
+- Let the transition between the landing page and the picture seires looks smoother.
 
 # Ideas
 - ✔ might put the main navBar to the left side and fold, only expand when you click a menu button.
