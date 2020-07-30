@@ -398,7 +398,6 @@ input[name="r"]{
     margin-bottom: 25px;
     
     text-decoration: line-through transparent;
-    transition: 1s;
 }
 
 .swiper-slides-link:hover{
