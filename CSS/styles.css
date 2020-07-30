@@ -83,7 +83,6 @@ nav{
     animation: title-1-2 2s 1;
     transition: 0.5s;
     backdrop-filter: blur(4px) contrast(0.8);
-    border-radius: 100px 15px;
 }
 
 .main-title:hover{
@@ -412,11 +411,12 @@ input[name="r"]{
 
 .swiper-slide {
     margin-top: 20px;
-    /* background-color: lightcoral; */
+    background-color: black;
     text-align: center;
     border: 2px solid black;
     height: 380px;
     width: auto !important;
+    min-width: 100px;
     object-fit: cover;
     cursor: pointer;
 
