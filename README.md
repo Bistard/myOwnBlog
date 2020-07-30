@@ -6,9 +6,9 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Image-slideshow.
 - ✔ Reduce image loading time for image-slideshow (resize the img from the server instead of in user's browser)
 - ✔ Image navbar.
-- ✔ Image-slideshow description and animation
+- ✔ Image-slideshow description and animation.
 - ✔ Picture Seires (Galleries).
-- Let the transition between the landing page and the picture seires looks smoother.
+- Parallax scrolling.
 - responsive picture gallery.
 
 # minor priority
@@ -31,3 +31,4 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - load the thumbnail of the image first.
 - Some music maybe?
 - Background with some random figures using JS?
+
