@@ -7,6 +7,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Reduce image loading time for image-slideshow (resize the img from the server instead of in user's browser)
 - ✔ Image navbar.
 - ✔ Image-slideshow description and animation.
+- ✔ Image-slideshow-navbar with animation and text will pop up when it's checked.
 - ✔ Picture Seires (Galleries).
 - ✔ Parallax scrolling.
 - Parallax scrolling of different elements with its own scrolling speed.
