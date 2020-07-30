@@ -25,8 +25,9 @@ This is my own webside about my photography 😀(*^_^*)😀.
 # bugs
 - Auto fit the mobile phone users.
 - ✔ Swiper-slide each slide has different width (by setting CSS as -> width: auto !important;) , but swiper.js still treats all the slides as the same width, as a result, the swiper.js won't scroll the slides properly.
-  - fixed: by setting main.js as -> loop: true. It not technically fixing the problem, but it works magically. :)
-- view collections warpper is too big.
+  - fixed: by setting main.js as -> {loop: true}, It not technically fixing the problem, but it works magically. :)
+- ✔ view collections warpper is too big.
+  - fixed: set as -> {display: inline-block; left: 50%; transform: translateX(-50%);}.
 - ✔ Letterspace for each navbar's item has issue
   - fixed: I just simply delete letter-spacing part...
 
