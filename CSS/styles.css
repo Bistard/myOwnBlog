@@ -396,31 +396,33 @@ input[name="r"]{
     cursor: pointer;
     font-size: 20px;
     margin-bottom: 25px;
-    border-bottom: 4px transparent black;
-    transition: border-bottom 1s;
+    
+    text-decoration: line-through transparent;
+    transition: 1s;
 }
 
 .swiper-slides-link:hover{
-    border-bottom: 4px solid black;
+    text-decoration: line-through;
 }
 
 .swiper-wrapper {
     height: 450px;
-    width: 10px;
+    width: 1px;
     
 }
 
 .swiper-slide {
+    margin-top: 20px;
     background-color: lightcoral;
     text-align: center;
     border: 2px solid black;
-    height: 390px;
+    height: 380px;
     width: auto !important;
     object-fit: cover;
     cursor: pointer;
 
     box-shadow: 5px 5px 20px 0px black;
-
+    
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -439,7 +441,8 @@ input[name="r"]{
 }
 
 .swiper-slide:hover{
-    height: 400px;
+    height: 390px;
 }
+
 
 /* SERIES (END) */
