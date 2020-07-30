@@ -412,7 +412,7 @@ input[name="r"]{
 
 .swiper-slide {
     margin-top: 20px;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     text-align: center;
     border: 2px solid black;
     height: 380px;
