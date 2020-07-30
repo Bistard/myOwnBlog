@@ -21,38 +21,70 @@ body{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 /* NAVIGATION BAR */
-nav{
+
+div[id="nav-br"]{
+    z-index: 999;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.navigation-container{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
     display: flex;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px black;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .leftside{
-    position: absolute;
     display: flex;
-    left: 0%;
-    padding: 2vw;
+    margin: 20px;
+}
+
+.logo{
+    margin: 20px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .rightside{
-    position: absolute;
     display: flex;
-    right: 0%;
-    padding: 2vw;
+    margin: 20px;
 }
 
 .nav-style{
     margin-right: 40px;
-    color: white;
+    color: black;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 20px;
+    font-size: 15px;
     border-bottom: 4px solid transparent;
     transition: 0.5s;
-    text-shadow: 2px 2px 0px black;
     cursor: pointer;
+}
+
+.nav-style::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -5px;
+    right: 10px;
+    background: white;
 }
 
 .timeline:hover,
@@ -63,16 +95,16 @@ nav{
 .ins:hover,
 .qq:hover
 {
-    font-size: 150%;
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid black;
 }
 
+/* NAVIGATION BAR (END) */
 /* MAIN-TITLE */
 
 .main-title{
     font-family: titleFont;
     color: white;
-    position: absolute;
+    position: relative;
     width: 880px;
     height: auto;
     min-height: 200px;
@@ -82,7 +114,7 @@ nav{
     box-shadow: 5px 5px 10px 0px black;
     animation: title-1-2 2s 1;
     transition: 0.5s;
-    backdrop-filter: blur(4px) contrast(0.8);
+    backdrop-filter: blur(8px) contrast(0.8);
 }
 
 .main-title:hover{
@@ -157,6 +189,38 @@ nav{
 }
 
 /* MAIN-TITLE (END) */
+/* PARALLAX SCROLLING */
+
+.parallax{
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    background-image: 
+    url(../images/imageSlideshows/1-1000x667.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    box-shadow: inset 0px -15px 50px 0px black;
+}
+
+.slides{
+    width: 500%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    transition: 1s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+/* PARALLAX SCROLLING (END) */
 /* IMAGE-SLIDESHOW */
 
 .slides-container{
@@ -181,7 +245,8 @@ nav{
     object-fit: cover;
 }
 /* IMAGE-SLIDESHOW (END) */
-/* SLIDE-NAV-BAR */
+/* 改版前的landing page的代码 (纪念与参考) */
+/* SLIDE-NAV-BAR 
 
 .slide-nav-container{
     position: absolute;
@@ -297,8 +362,8 @@ input[name="r"]{
     margin-left: -80%;
 }
 
-/* SLIDE-NAV-BAR (END) */
-/* SLIDE-INTRO */
+/ SLIDE-NAV-BAR (END) /
+/ SLIDE-INTRO /
 
 .intro-container > *{
     position: absolute;
@@ -363,7 +428,7 @@ input[name="r"]{
 }
 
 
-/* SLIDE-INTRO (END) */
+/ SLIDE-INTRO (END) */
 /* SERIES */
 
 #series-title{
@@ -406,21 +471,19 @@ input[name="r"]{
 .swiper-wrapper {
     height: 450px;
     width: 1px;
-    
 }
 
 .swiper-slide {
-    margin-top: 20px;
     background-color: black;
     text-align: center;
-    border: 2px solid black;
     height: 380px;
     width: auto !important;
     min-width: 100px;
     object-fit: cover;
     cursor: pointer;
 
-    box-shadow: 5px 5px 20px 0px black;
+    box-shadow: 3px 3px 10px 0px black;
+    margin-top: 20px;
     
     /* Center slide text vertically */
     display: -webkit-box;
@@ -441,6 +504,7 @@ input[name="r"]{
 
 .swiper-slide:hover{
     height: 390px;
+    box-shadow: 5px 5px 20px 0px black;
 
 }
 
