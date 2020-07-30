@@ -9,7 +9,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Image-slideshow description and animation.
 - ✔ Picture Seires (Galleries).
 - ✔ Parallax scrolling.
-- Parallax scrolling for each section.
+- Parallax scrolling of different elements with its own scrolling speed.
 - responsive picture gallery.
 
 # minor priority
