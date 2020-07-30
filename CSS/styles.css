@@ -80,7 +80,7 @@ nav{
     left: 50%;
     top: 50%;
     box-shadow: 5px 5px 10px 0px black;
-    animation: title-1-2 5s 1;
+    animation: title-1-2 2s 1;
     transition: 0.5s;
     backdrop-filter: blur(4px) contrast(0.8);
     border-radius: 100px 15px;
@@ -101,7 +101,7 @@ nav{
     text-align: center;
     letter-spacing: 10px;
     background-color: transparent;
-    animation: title-1 5s 1;
+    animation: title-1 2s 1;
 }
 
 .main-title h2{
@@ -109,7 +109,7 @@ nav{
     font-size: 50px;
     text-align: center;
     letter-spacing: 5px;
-    animation: title-2 5s 1;
+    animation: title-2 2s 1;
 }
 
 @keyframes title-1-2{
@@ -192,7 +192,7 @@ nav{
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
-    animation: fade-in 5s;
+    animation: fade-in 1s;
     transition: opacity 1s;
 }
 
@@ -442,7 +442,7 @@ input[name="r"]{
 
 .swiper-slide:hover{
     height: 390px;
-    
+
 }
 
 /* SERIES (END) */
