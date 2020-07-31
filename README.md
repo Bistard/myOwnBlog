@@ -21,6 +21,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
 - Like button next to every picture seires.
 - "Smooth navbar".
+- navbar -> CHRIS LI heads to the top page.
 
 # bugs
 - Auto fit the mobile phone users.
