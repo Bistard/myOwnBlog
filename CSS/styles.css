@@ -426,6 +426,11 @@ input[name="r"]{
     url(../images/imageSlideshows/3-1000x667.jpg);
 }
 
+#slide-4{
+    background-image: 
+    url(../images/imageSlideshows/4-1000x667.jpg);
+}
+
 .parallax{
     width: 100%;
     height: 90vh;
@@ -511,12 +516,8 @@ input[name="r"]{
     align-items: center;
 
     transition: 0.5s;
-}
-
-.swiper-slide:hover{
-    height: 390px;
-    box-shadow: 5px 5px 20px 0px black;
 
 }
+
 
 /* SERIES (END) */
