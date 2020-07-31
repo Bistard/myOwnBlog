@@ -63,6 +63,12 @@ div[id="nav-br"]{
     letter-spacing: 10px;
     font-size: 15px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.logo:hover{
+    color: white;
+    background-color: black;
 }
 
 .rightside{
