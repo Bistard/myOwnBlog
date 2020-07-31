@@ -10,7 +10,6 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Image-slideshow-navbar with animation and text will pop up when it's checked.
 - ✔ Picture Seires (Galleries).
 - ✔ Parallax scrolling.
-- Parallax scrolling of different elements with its own scrolling speed.
 - responsive picture gallery.
 
 # minor priority
@@ -21,7 +20,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
 - Like button next to every picture seires.
 - "Smooth navbar".
-- navbar -> CHRIS LI heads to the top page.
+- hovering on swiper-slide will show the # of the slide.
 
 # bugs
 - Auto fit the mobile phone users.
@@ -38,4 +37,6 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - load the thumbnail of the image first.
 - Some music maybe?
 - Background with some random figures using JS? (1%)
+- Parallax scrolling of different elements with its own scrolling speed.
+
 
