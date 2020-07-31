@@ -201,38 +201,6 @@ div[id="nav-br"]{
 }
 
 /* MAIN-TITLE (END) */
-/* PARALLAX SCROLLING */
-
-.parallax{
-    width: 100%;
-    height: 90vh;
-    margin: 0 auto;
-    background-image: 
-    url(../images/imageSlideshows/1-1000x667.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    
-    box-shadow: inset 0px -15px 50px 0px black;
-}
-
-.slides{
-    width: 500%;
-    display: flex;
-}
-
-.slide{
-    width: 20%;
-    transition: 1s;
-}
-
-.slide img{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-/* PARALLAX SCROLLING (END) */
 /* IMAGE-SLIDESHOW */
 
 .slides-container{
@@ -441,6 +409,36 @@ input[name="r"]{
 
 
 / SLIDE-INTRO (END) */
+/* PARALLAX SCROLLING */
+
+#slide-1{
+    background-image: 
+    url(../images/imageSlideshows/1-1000x667.jpg);
+}
+
+#slide-2{
+    background-image: 
+    url(../images/imageSlideshows/2-1000x667.jpg);
+}
+
+#slide-3{
+    background-image: 
+    url(../images/imageSlideshows/3-1000x667.jpg);
+}
+
+.parallax{
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    box-shadow: inset 0px -15px 50px 0px black;
+}
+
+/* PARALLAX SCROLLING (END) */
 /* SERIES */
 
 #series-title{
@@ -458,6 +456,7 @@ input[name="r"]{
 }
 
 .swiper-slides-title{
+    margin: 20px;
     text-align: center;
     font-family: archistico-simple;
     font-weight: bold;
