@@ -133,7 +133,7 @@ div[id="nav-br"]{
     margin-top: 10px;
     font-weight: none;
     border-bottom: 4px solid transparent;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .timeline:hover .timeline-drop-menu:last-child{
@@ -141,7 +141,8 @@ div[id="nav-br"]{
 }
 
 .timeline:hover .timeline-drop-menu a:hover{
-    border-bottom: 4px solid black;
+    color: white;
+    background-color: black;
 }
 
 /* NAVIGATION BAR (END) */
