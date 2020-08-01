@@ -113,6 +113,37 @@ div[id="nav-br"]{
     border-bottom: 4px solid black;
 }
 
+.timeline-drop-menu{
+    display: none;
+}
+
+.timeline:hover .timeline-drop-menu{
+    position: absolute;
+    display: block;
+    background-color: white;
+    box-shadow: 5px 5px 10px 0px black;
+    
+    width: 10.5vw;
+    min-width: 100px;
+}
+
+.timeline:hover .timeline-drop-menu a{
+    display: block;
+    word-wrap: break-word;
+    margin-top: 10px;
+    font-weight: none;
+    border-bottom: 4px solid transparent;
+    transition: 0.5s;
+}
+
+.timeline:hover .timeline-drop-menu:last-child{
+    padding-bottom: 4px;
+}
+
+.timeline:hover .timeline-drop-menu a:hover{
+    border-bottom: 4px solid black;
+}
+
 /* NAVIGATION BAR (END) */
 /* MAIN-TITLE */
 
