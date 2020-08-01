@@ -13,6 +13,10 @@
     src:url("../fonts/Archistico_Simple.ttf") format("truetype");
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -39,8 +43,6 @@ div[id="nav-br"]{
     z-index: 100;
     width: 100%;
     height: auto;
-    justify-content: space-between;
-    display: flex;
     background-color: white;
     box-shadow: 0px 5px 5px 0px black;
 
@@ -56,6 +58,7 @@ div[id="nav-br"]{
 }
 
 .logo{
+    width: 100%;
     margin: 20px;
     color: black;
     text-transform: uppercase;
@@ -67,9 +70,18 @@ div[id="nav-br"]{
 }
 
 .logo:hover{
-    color: white;
-    background-color: black;
+    color: black;
+    background: black;
 }
+
+.logo:hover:before {
+    position: absolute;
+    margin-left: 30px;
+    content:"HOME";
+    color: white;
+    pointer-events: none;
+}
+
 
 .rightside{
     display: grid;
@@ -79,24 +91,15 @@ div[id="nav-br"]{
 }
 
 .nav-style{
-    margin-right: 40px;
+    width: 100%;
     color: black;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 15px;
     letter-spacing: 2px;
     border-bottom: 4px solid transparent;
     cursor: pointer;
     transition: 0.5s;
-}
-
-.nav-style::after {
-    content: "";
-    width: 50px;
-    height: 50px;
-    position: relative;
-    bottom: -5px;
-    right: 10px;
-    background: white;
 }
 
 .timeline:hover,
@@ -501,6 +504,7 @@ input[name="r"]{
     width: auto !important;
     min-width: 100px;
     object-fit: cover;
+    cursor: pointer;
 
     box-shadow: 3px 3px 10px 0px black;
     
