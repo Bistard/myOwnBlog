@@ -17,6 +17,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ image-slideshow-navbar lined in a wave-shape.
 - ✔ click the image-slideshow-navbar will show the placeName instead of the picture.
 - ✔ box-shadow for the image-slideshow-navbar.
+- ✔ the main-slide-title will fade-up when we scrolls on its position.
 - Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
 - Like button next to every picture seires.
 - "Smooth navbar".
