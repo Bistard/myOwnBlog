@@ -6,6 +6,8 @@
     <title>Home</title>
     <!-- link to swiper.js -->
     <link rel="stylesheet" type="text/css" href="CSS/swiper-bundle.min.css">
+    <!-- link to aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
@@ -121,8 +123,8 @@
 
     <div id="slide-1" class="parallax">
         <div class="main-title disappear">
-            <h1>photography</h1>
-            <h2>Chris Li</h2>
+            <h1 id="title-ani-1">photography</h1>
+            <h2 id="title-ani-2">Chris Li</h2>
         </div>    
     </div>
 
@@ -139,7 +141,7 @@
         </div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <img class= "swiper-slide" src="images/series-image/lifestyle/01.jpg" data-text="hello">
+                <img class= "swiper-slide" src="images/series-image/lifestyle/01.jpg">
                 <img class= "swiper-slide" src="images/series-image/lifestyle/02.jpg" alt="">
                 <img class= "swiper-slide" src="images/series-image/lifestyle/03.jpg" alt="">
                 <img class= "swiper-slide" src="images/series-image/lifestyle/4.jpg" alt="">
@@ -158,7 +160,7 @@
     </div>
 
     <div id="slide-2" class="parallax">
-        <div class="main-title disappear">
+        <div data-aos="fade-up" class="main-title disappear">
             <h1>Hamilton</h1>
             <h2>2018 - Fall</h2>
         </div>    
@@ -192,7 +194,7 @@
     </div>
 
     <div id="slide-3" class="parallax">
-        <div class="main-title disappear">
+        <div data-aos="fade-up" class="main-title disappear">
             <h1>Missisuaga</h1>
             <h2>2018 - 2019</h2>
         </div>    
@@ -226,7 +228,7 @@
     </div>
 
     <div id="slide-4" class="parallax">
-        <div class="main-title disappear">
+        <div data-aos="fade-up" class="main-title disappear">
             <h1>Chengdu</h1>
             <h2>2020 - Summer</h2>
         </div>    
@@ -262,7 +264,13 @@
     <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/swiper-slide.js"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Initialize aos -->
+    <script type="text/javascript" src="js/aos.js"></script>
 
     <!-- <div class="" style="margin: 1000px;"></div> -->
 </body>

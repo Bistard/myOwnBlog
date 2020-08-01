@@ -120,12 +120,12 @@ div[id="nav-br"]{
     width: 880px;
     height: auto;
     min-height: 200px;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) !important;
     left: 50%;
     top: 50%;
     box-shadow: 5px 5px 10px 0px black;
     animation: title-1-2 2s 1;
-    transition: 0.5s;
+    transition: 0.5s !important;
     backdrop-filter: blur(8px) contrast(0.8);
 }
 
@@ -144,7 +144,6 @@ div[id="nav-br"]{
     text-align: center;
     letter-spacing: 10px;
     background-color: transparent;
-    animation: title-1 2s 1;
 }
 
 .main-title h2{
@@ -152,6 +151,13 @@ div[id="nav-br"]{
     font-size: 50px;
     text-align: center;
     letter-spacing: 5px;
+}
+
+.main-title #title-ani-1{
+    animation: title-1 2s 1;
+}
+
+.main-title #title-ani-2{
     animation: title-2 2s 1;
 }
 
@@ -516,8 +522,12 @@ input[name="r"]{
     align-items: center;
 
     transition: 0.5s;
-
 }
 
+.swiper-slide:hover{
+    height: 390px;
+    box-shadow: 5px 5px 20px 0px black;
+
+}
 
 /* SERIES (END) */
