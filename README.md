@@ -10,6 +10,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Image-slideshow-navbar with animation and text will pop up when it's checked.
 - ✔ Picture Seires (Galleries).
 - ✔ Parallax scrolling.
+- Drop menu for navbar.
 - responsive picture gallery.
 
 # minor priority
