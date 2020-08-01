@@ -20,7 +20,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ the main-slide-title will fade-up when we scrolls on its position.
 - Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
 - Like button next to every picture seires.
-- "Smooth navbar".
+- ✔ "Smooth navbar".
 - ✔ hovering on swiper-slide will show the # of the slide.
 - ✔ hovering on CHRIS LI will show up HOME instead.
 
