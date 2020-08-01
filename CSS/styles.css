@@ -496,16 +496,13 @@ input[name="r"]{
 }
 
 .swiper-slide {
-    background-color: black;
     text-align: center;
     height: 380px;
     width: auto !important;
     min-width: 100px;
     object-fit: cover;
-    cursor: pointer;
 
     box-shadow: 3px 3px 10px 0px black;
-    margin-top: 20px;
     
     /* Center slide text vertically */
     display: -webkit-box;
@@ -527,7 +524,28 @@ input[name="r"]{
 .swiper-slide:hover{
     height: 390px;
     box-shadow: 5px 5px 20px 0px black;
+}
 
+.swiper-slide::after{
+    content: attr(data-text);
+    position: absolute;
+    text-align: center;
+    bottom: 3%;
+
+    font-family: archistico-simple;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+
+    opacity: 0;
+    transition: 0.5s;
+
+    pointer-events: none;
+}
+
+.swiper-slide:hover::after{
+    opacity: 1;
 }
 
 /* SERIES (END) */
