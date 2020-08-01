@@ -121,10 +121,17 @@ div[id="nav-br"]{
     position: absolute;
     display: block;
     background-color: white;
-    box-shadow: 5px 5px 10px 0px black;
+    box-shadow: 5px 20px 10px 0px black;
     
     width: 10.5vw;
     min-width: 100px;
+    
+    animation: fade-in 0.3s;
+}
+
+@keyframes fade-in {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .timeline:hover .timeline-drop-menu a{
