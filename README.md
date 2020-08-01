@@ -10,6 +10,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Image-slideshow-navbar with animation and text will pop up when it's checked.
 - ✔ Picture Seires (Galleries).
 - ✔ Parallax scrolling.
+- Drop menu for navbar.
 - responsive picture gallery.
 
 # minor priority
@@ -20,11 +21,13 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ the main-slide-title will fade-up when we scrolls on its position.
 - Shrink the size of the image-slideshow-navbar by 50px by 50px (might not)?
 - Like button next to every picture seires.
-- "Smooth navbar".
+- ✔ "Smooth navbar".
 - ✔ hovering on swiper-slide will show the # of the slide.
+- ✔ hovering on CHRIS LI will show up HOME instead.
 
 # bugs
 - Auto fit the mobile phone users.
+- Use @media to make everything RESPONSIVE.
 - ✔ Swiper-slide each slide has different width (by setting CSS as -> width: auto !important;), but swiper.js still treats all the slides as the same width, as a result, the swiper.js won't scroll the slides properly.
   - fixed: by setting main.js as -> {loop: true}, It not technically fixing the problem, but it works magically. :)
 - ✔ view collections warpper is too big.
