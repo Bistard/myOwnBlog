@@ -22,6 +22,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - Like button next to every picture seires.
 - "Smooth navbar".
 - ✔ hovering on swiper-slide will show the # of the slide.
+- ✔ hovering on CHRIS LI will show up HOME instead.
 
 # bugs
 - Auto fit the mobile phone users.
