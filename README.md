@@ -11,6 +11,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Picture Seires (Galleries).
 - ✔ Parallax scrolling.
 - ✔ Drop menu for navbar.
+- About-me section.
 - responsive picture gallery.
 
 # minor priority
