@@ -38,6 +38,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ For each swiper-slide, if users are hovering on the image-#, the img-container will not trigger the hover effect.
   - fixed: set the image-#'s class as -> {pointer-events: none;}. So that the image-# will has no hover effect to overlay the img-container's hover effect.
 - Safari doesn't support CSS scroll-behavior, I need to write .js later to ensure it fully functional.
+- Grid templates somehow wrongly calculated the rows and the columns.
 
 # Ideas
 - ✔ might put the main navBar to the left side and fold, only expand when you click a menu button.
