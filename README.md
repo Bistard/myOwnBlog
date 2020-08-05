@@ -12,7 +12,7 @@ This is my own webside about my photography 😀(*^_^*)😀.
 - ✔ Parallax scrolling.
 - ✔ Drop menu for navbar.
 - About-me section.
-- responsive picture gallery.
+- ✔ responsive picture gallery.
 
 # minor priority
 - ✔ main title -> animation.
