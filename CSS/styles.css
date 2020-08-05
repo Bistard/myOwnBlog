@@ -600,10 +600,10 @@ input[name="r"]{
 /* IMAGE GALLERY 1 */
 
 .image-gallery-container{
-
     width: 100%;
     max-width: 120rem;
     margin: auto;
+    margin-top: 50px;
 }
 
 .image-gallery{
@@ -616,9 +616,9 @@ input[name="r"]{
     grid-template-rows: auto;
     grid-gap: 1.5rem;
     grid-template-areas:
-    "img-1-1 img-1-1 img-1-2 img-1-3"
-    "img-1-6 img-1-5 img-1-4 img-1-3"
-    "img-1-6 img-1-7 img-1-8 img-1-8";
+    "img-1-1 img-1-1 img-1-5 img-1-3"
+    "img-1-8 img-1-8 img-1-6 img-1-6"
+    "img-1-7 img-1-7 img-1-6 img-1-6";
 }
 
 .image-gallery div{
@@ -631,29 +631,42 @@ input[name="r"]{
     position: relative;
 }
 
+@media screen and (max-width: 900px){
+    .image-gallery{
+        grid-template-areas:
+    "img-1-1 img-1-1 img-1-1 img-1-1"
+    "img-1-5 img-1-5 img-1-3 img-1-3"
+    "img-1-8 img-1-8 img-1-8 img-1-8"
+    "img-1-7 img-1-7 img-1-7 img-1-7"
+    "img-1-6 img-1-6 img-1-6 img-1-6"
+    "img-1-6 img-1-6 img-1-6 img-1-6";
+    }
+}
+
 .img-1-1{
     grid-area: img-1-1;
-    background-image: url(../images/series-image/lifestyle/image-gallery/1.JPG);}
+    background-image: url(../images/series-image/lifestyle/image-gallery/1.jpg);}
 
 .img-1-2{
     grid-area: img-1-2;
-    background-image: url(../images/series-image/lifestyle/image-gallery/2.JPG);}
+    background-image: url(../images/series-image/lifestyle/image-gallery/2.jpg);}
 
 .img-1-3{
     grid-area: img-1-3;
-    background-image: url(../images/series-image/lifestyle/image-gallery/3.JPG);}
+    background-image: url(../images/series-image/lifestyle/image-gallery/3.jpg);}
 
 .img-1-4{
     grid-area: img-1-4;
-    background-image: url(../images/series-image/lifestyle/image-gallery/4.JPG);}
+    background-image: url(../images/series-image/lifestyle/image-gallery/4.jpg);}
 
 .img-1-5{
     grid-area: img-1-5;
-    background-image: url(../images/series-image/lifestyle/image-gallery/5.png);}
+    background-image: url(../images/series-image/lifestyle/image-gallery/5.jpg);}
 
 .img-1-6{
     grid-area: img-1-6;
-    background-image: url(../images/series-image/lifestyle/image-gallery/6.PNG);}
+    min-height: 51.5rem;
+    background-image: url(../images/series-image/lifestyle/image-gallery/6.jpg);}
 
 .img-1-7{
     grid-area: img-1-7;
@@ -661,6 +674,6 @@ input[name="r"]{
 
 .img-1-8{
     grid-area: img-1-8;
-    background-image: url(../images/series-image/lifestyle/image-gallery/8.PNG);}
+    background-image: url(../images/series-image/lifestyle/image-gallery/8.jpg);}
 
 /* IAMGE GALLERY 1 (END) */
